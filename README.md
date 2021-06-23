@@ -28,6 +28,8 @@ var barcode = new Barcode.BarcodeGS1128 {
     GS1CompanyPrefix = "1234567",
     SerialNumber = "000000001"
 };
+
+barcode.Encode();
 ```
 
 For more information on GS1 128 please visit https://www.gs1-128.info/
